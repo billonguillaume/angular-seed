@@ -10,3 +10,32 @@
   @import '~sass/variables;
   @import '~sass/mixins;
 */
+
+
+/*
+  Bootstrap theming : https://getbootstrap.com/docs/4.0/getting-started/theming/
+  We have to override Bootstrap variables before importing the file containing them.
+  I guess import Bootstrap last is the way to go.
+*/
+// Your variable overrides
+$body-bg: rgba(229, 230, 221, 0.993);
+$body-color: rgba(122, 114, 235, 0.699);
+
+// Bootstrap and its default variables: Will import everything
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// TODO: Import only what's needed
+// // Required
+// @import "node_modules/bootstrap/scss/functions";
+// @import "node_modules/bootstrap/scss/variables";
+// @import "node_modules/bootstrap/scss/mixins";
+
+// // Optional
+// @import "node_modules/bootstrap/scss/reboot";
+// @import "node_modules/bootstrap/scss/type";
+// @import "node_modules/bootstrap/scss/images";
+// @import "node_modules/bootstrap/scss/code";
+// @import "node_modules/bootstrap/scss/grid";
+// @import "node_modules/bootstrap/scss/navbar";
+// @import "node_modules/bootstrap/scss/nav";
+// @import "node_modules/bootstrap/scss/jumbotron";

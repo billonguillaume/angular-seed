@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  public applicationName = 'AngularSeed';
+  public version = '0.0.0'; // TODO: Get value from
 }
