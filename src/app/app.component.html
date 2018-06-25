@@ -12,64 +12,74 @@
     </li>
   </ul>
 </nav>
-<div class="container-fluid" style="margin-top:80px">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper semper lorem ut commodo. Ut quis mauris eget risus
-    bibendum dapibus. Maecenas sit amet sapien sit amet nisi efficitur gravida. Cras vel ornare augue, et hendrerit sapien.
-    Phasellus porttitor purus vitae mauris malesuada lobortis. Vivamus luctus at velit id aliquam. Mauris in rutrum elit.
-    Suspendisse potenti.</p>
+<div class="container-fluid" style="margin-top: 80px; margin-bottom: 80px;">
+  <ngb-accordion activeIds="active-panel" [closeOthers]="true">
+    <ngb-panel title="Lorem Ipsum" id="active-panel">
+      <ng-template ngbPanelContent>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper semper lorem ut commodo. Ut quis mauris
+          eget risus bibendum dapibus. Maecenas sit amet sapien sit amet nisi efficitur gravida. Cras vel ornare augue, et
+          hendrerit sapien. Phasellus porttitor purus vitae mauris malesuada lobortis. Vivamus luctus at velit id aliquam.
+          Mauris in rutrum elit. Suspendisse potenti.</p>
 
-  <p>Cras suscipit cursus sapien, in blandit nisi dignissim sit amet. Cras condimentum, lacus sed lobortis dapibus, nisl erat
-    tincidunt lorem, non molestie diam mauris ut magna. Ut dapibus ac est vitae condimentum. Cras cursus et diam sit amet
-    imperdiet. Mauris dapibus mattis purus sit amet interdum. Donec vel nunc enim. Aenean ex ligula, commodo id tellus ut,
-    ornare pretium sapien. Morbi sit amet tempor elit. Phasellus accumsan auctor nibh sed interdum.</p>
+        <p>Cras suscipit cursus sapien, in blandit nisi dignissim sit amet. Cras condimentum, lacus sed lobortis dapibus, nisl
+          erat tincidunt lorem, non molestie diam mauris ut magna. Ut dapibus ac est vitae condimentum. Cras cursus et diam
+          sit amet imperdiet. Mauris dapibus mattis purus sit amet interdum. Donec vel nunc enim. Aenean ex ligula, commodo
+          id tellus ut, ornare pretium sapien. Morbi sit amet tempor elit. Phasellus accumsan auctor nibh sed interdum.</p>
 
-  <p>Mauris vitae suscipit elit. Aenean feugiat est at dapibus placerat. In in posuere massa. Vestibulum eu aliquet lorem. Morbi
-    vehicula dui ullamcorper, blandit diam id, viverra ipsum. Donec quis tortor aliquet elit ullamcorper bibendum. Sed commodo
-    convallis metus sit amet posuere. Nullam porta justo est, quis elementum risus semper sollicitudin. Duis tempus ipsum
-    turpis, et egestas ligula eleifend eu.</p>
+        <p>Mauris vitae suscipit elit. Aenean feugiat est at dapibus placerat. In in posuere massa. Vestibulum eu aliquet lorem.
+          Morbi vehicula dui ullamcorper, blandit diam id, viverra ipsum. Donec quis tortor aliquet elit ullamcorper bibendum.
+          Sed commodo convallis metus sit amet posuere. Nullam porta justo est, quis elementum risus semper sollicitudin.
+          Duis tempus ipsum turpis, et egestas ligula eleifend eu.</p>
 
-  <p>Vestibulum nulla justo, suscipit quis urna tincidunt, placerat dapibus nisl. Pellentesque eget orci felis. Suspendisse
-    potenti. Etiam dictum risus id eros congue, et tempus massa efficitur. Interdum et malesuada fames ac ante ipsum primis
-    in faucibus. Aenean rutrum ligula in felis tincidunt fringilla. Suspendisse dapibus augue sed erat facilisis, nec ornare
-    turpis posuere. Ut hendrerit malesuada est at venenatis. Vestibulum interdum imperdiet odio, non congue enim egestas
-    non. Duis porta ipsum vitae urna dictum consequat. Etiam accumsan nunc tellus, non consequat velit vestibulum eget. Duis
-    gravida dictum ligula porttitor ultricies. Aenean sit amet vehicula ex, vel venenatis lorem. Sed scelerisque, dolor ut
-    facilisis vehicula, libero risus lacinia purus, quis semper lectus odio a dui. Suspendisse potenti. Nunc tempus finibus
-    augue, eu accumsan velit faucibus vel.</p>
+        <p>Vestibulum nulla justo, suscipit quis urna tincidunt, placerat dapibus nisl. Pellentesque eget orci felis. Suspendisse
+          potenti. Etiam dictum risus id eros congue, et tempus massa efficitur. Interdum et malesuada fames ac ante ipsum
+          primis in faucibus. Aenean rutrum ligula in felis tincidunt fringilla. Suspendisse dapibus augue sed erat facilisis,
+          nec ornare turpis posuere. Ut hendrerit malesuada est at venenatis. Vestibulum interdum imperdiet odio, non congue
+          enim egestas non. Duis porta ipsum vitae urna dictum consequat. Etiam accumsan nunc tellus, non consequat velit
+          vestibulum eget. Duis gravida dictum ligula porttitor ultricies. Aenean sit amet vehicula ex, vel venenatis lorem.
+          Sed scelerisque, dolor ut facilisis vehicula, libero risus lacinia purus, quis semper lectus odio a dui. Suspendisse
+          potenti. Nunc tempus finibus augue, eu accumsan velit faucibus vel.</p>
 
-  <p>Aenean mi erat, ultricies vel iaculis in, blandit at ante. Mauris convallis arcu vitae odio tristique facilisis. Etiam
-    ut ligula ac ante ultrices convallis. Etiam convallis velit rhoncus sem lacinia placerat. Nulla facilisi. Ut semper,
-    erat non posuere ullamcorper, est turpis facilisis neque, vel suscipit metus odio non diam. Etiam sit amet nisl porta,
-    sollicitudin nibh non, congue risus.</p>
+        <p>Aenean mi erat, ultricies vel iaculis in, blandit at ante. Mauris convallis arcu vitae odio tristique facilisis.
+          Etiam ut ligula ac ante ultrices convallis. Etiam convallis velit rhoncus sem lacinia placerat. Nulla facilisi.
+          Ut semper, erat non posuere ullamcorper, est turpis facilisis neque, vel suscipit metus odio non diam. Etiam sit
+          amet nisl porta, sollicitudin nibh non, congue risus.</p>
 
-  <p>Donec ultrices, ex sed vulputate sollicitudin, neque metus ornare risus, nec condimentum nulla nisi non ante. Maecenas
-    ultrices lobortis metus eget congue. Nulla in eros quis est pellentesque euismod vitae sit amet massa. Mauris dignissim
-    lacinia odio. Proin at ultrices enim, ac iaculis felis. Mauris tempor est felis, quis semper magna dictum in. Aenean
-    vitae interdum augue. Curabitur pulvinar hendrerit ante. Sed pharetra condimentum mauris at convallis. Vestibulum convallis
-    purus mi, malesuada sollicitudin turpis pellentesque rhoncus. Phasellus congue elit id gravida vestibulum.</p>
+        <p>Donec ultrices, ex sed vulputate sollicitudin, neque metus ornare risus, nec condimentum nulla nisi non ante. Maecenas
+          ultrices lobortis metus eget congue. Nulla in eros quis est pellentesque euismod vitae sit amet massa. Mauris dignissim
+          lacinia odio. Proin at ultrices enim, ac iaculis felis. Mauris tempor est felis, quis semper magna dictum in. Aenean
+          vitae interdum augue. Curabitur pulvinar hendrerit ante. Sed pharetra condimentum mauris at convallis. Vestibulum
+          convallis purus mi, malesuada sollicitudin turpis pellentesque rhoncus. Phasellus congue elit id gravida vestibulum.</p>
 
-  <p>Nunc gravida lacinia massa, in efficitur purus accumsan ut. Etiam scelerisque finibus nibh, ac pulvinar metus semper vel.
-    Aenean volutpat ac libero ut imperdiet. Cras tristique convallis orci ac rhoncus. Donec sapien nunc, rutrum a tristique
-    eget, ornare vitae leo. Nam vel neque efficitur, pellentesque ante volutpat, vestibulum mi. Etiam quis dui ut elit convallis
-    lacinia in a orci. Pellentesque ac risus laoreet, dictum ex vitae, hendrerit nisl. Maecenas rutrum tellus eget sollicitudin
-    placerat.
-  </p>
+        <p>Nunc gravida lacinia massa, in efficitur purus accumsan ut. Etiam scelerisque finibus nibh, ac pulvinar metus semper
+          vel. Aenean volutpat ac libero ut imperdiet. Cras tristique convallis orci ac rhoncus. Donec sapien nunc, rutrum
+          a tristique eget, ornare vitae leo. Nam vel neque efficitur, pellentesque ante volutpat, vestibulum mi. Etiam quis
+          dui ut elit convallis lacinia in a orci. Pellentesque ac risus laoreet, dictum ex vitae, hendrerit nisl. Maecenas
+          rutrum tellus eget sollicitudin placerat.
+        </p>
 
-  <p>Aliquam pharetra erat nec libero feugiat iaculis. Pellentesque non posuere enim. Ut maximus ligula ut velit pulvinar porttitor.
-    Curabitur mi lectus, convallis vel ante ut, cursus ultricies sem. Fusce pulvinar purus eget leo pellentesque posuere.
-    Nulla facilisi. Vivamus scelerisque felis leo, non luctus elit vulputate in. Praesent vulputate mollis sapien, id semper
-    massa faucibus nec. Cras sit amet ornare lacus. Nulla lacus augue, malesuada non lectus ac, rutrum dictum risus.</p>
+        <p>Aliquam pharetra erat nec libero feugiat iaculis. Pellentesque non posuere enim. Ut maximus ligula ut velit pulvinar
+          porttitor. Curabitur mi lectus, convallis vel ante ut, cursus ultricies sem. Fusce pulvinar purus eget leo pellentesque
+          posuere. Nulla facilisi. Vivamus scelerisque felis leo, non luctus elit vulputate in. Praesent vulputate mollis
+          sapien, id semper massa faucibus nec. Cras sit amet ornare lacus. Nulla lacus augue, malesuada non lectus ac, rutrum
+          dictum risus.</p>
 
-  <p>Proin ut sem aliquam, lobortis sem non, placerat nisi. Aliquam ut hendrerit risus. Vivamus eu libero feugiat, faucibus
-    tortor lacinia, vehicula enim. Phasellus a arcu eu velit consectetur fermentum a eget dolor. Donec ullamcorper tortor
-    ex, scelerisque pharetra dolor finibus et. Aenean in dolor neque. Aliquam posuere a lectus eu hendrerit. Suspendisse
-    consequat nunc nisl, pharetra maximus urna interdum id.</p>
+        <p>Proin ut sem aliquam, lobortis sem non, placerat nisi. Aliquam ut hendrerit risus. Vivamus eu libero feugiat, faucibus
+          tortor lacinia, vehicula enim. Phasellus a arcu eu velit consectetur fermentum a eget dolor. Donec ullamcorper
+          tortor ex, scelerisque pharetra dolor finibus et. Aenean in dolor neque. Aliquam posuere a lectus eu hendrerit.
+          Suspendisse consequat nunc nisl, pharetra maximus urna interdum id.</p>
 
-  <p>Cras ullamcorper urna lobortis nisi blandit pretium. Morbi id arcu rhoncus, ultricies orci eu, tincidunt nisl. Pellentesque
-    condimentum euismod justo id fermentum. Proin eros ipsum, luctus sed mi in, aliquam lobortis dolor. Etiam id laoreet
-    tortor. Donec aliquam urna sit amet ultricies luctus. Curabitur sed tortor non metus auctor sollicitudin. Vestibulum
-    nisi justo, posuere sed erat eu, consectetur dictum sem. Donec tempor elit id nisl dignissim ultrices. Donec at erat
-    nec lorem tempus cursus. Nullam ornare mauris tempus, scelerisque urna in, bibendum erat.</p>
+        <p>Cras ullamcorper urna lobortis nisi blandit pretium. Morbi id arcu rhoncus, ultricies orci eu, tincidunt nisl. Pellentesque
+          condimentum euismod justo id fermentum. Proin eros ipsum, luctus sed mi in, aliquam lobortis dolor. Etiam id laoreet
+          tortor. Donec aliquam urna sit amet ultricies luctus. Curabitur sed tortor non metus auctor sollicitudin. Vestibulum
+          nisi justo, posuere sed erat eu, consectetur dictum sem. Donec tempor elit id nisl dignissim ultrices. Donec at
+          erat nec lorem tempus cursus. Nullam ornare mauris tempus, scelerisque urna in, bibendum erat.</p>
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel title="Empty">
+      <ng-template ngbPanelContent></ng-template>
+    </ngb-panel>
+  </ngb-accordion>
 </div>
 <div class="navbar bg-primary fixed-bottom" style="color: white;">
   <span class="nav-item">Insert copyright here</span>

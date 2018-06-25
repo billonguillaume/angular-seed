@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public applicationName = 'AngularSeed';
-  public version = '0.0.0'; // TODO: Get value from
+  public version = '0.0.0'; // TODO: Get value from package.json
 }

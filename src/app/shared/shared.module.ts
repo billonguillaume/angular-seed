@@ -5,6 +5,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -12,7 +14,8 @@ import { BrowserModule } from '@angular/platform-browser';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    BrowserModule
+    BrowserModule,
+    NgbModule.forRoot()
   ],
   declarations: [],
   exports: [
@@ -21,7 +24,8 @@ import { BrowserModule } from '@angular/platform-browser';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    BrowserModule
+    BrowserModule,
+    NgbModule
   ]
 })
 /**
