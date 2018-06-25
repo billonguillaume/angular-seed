@@ -1,0 +1,4 @@
+This folder should contain modules which contains a group of module.
+
+This is mainly used for libraries that allows to export only modules for the components that you really need.
+By importing those modules in a seperate module you will keep your CoreModule clean and tidy.
