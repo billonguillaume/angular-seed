@@ -13,20 +13,19 @@ Files using the application name (for easier renaming) :
 * package.json
 * package-lock.json
 
-A simple scrip to easily rename is coming...
+I will try to write a simple script to replace the project name easily...
 
 Check .gitkeep files content for more details about what the folder is supposed to contain.
 
 ## Included libraries
 
-This seed currently doesn't have any npm packages but I'm planning on adding the ones I use the most or find the most useful.
+* [ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap)
 
-Here's a non-exhaustive list :
+Here's a non-exhaustive list of NPM packages I'd like to add in the seed:
 
-* [ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap) (but need comparison with [ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap))
 * [ngx-moment](https://github.com/urish/ngx-moment)
 * [ngx-toastr](https://github.com/scttcper/ngx-toastr)
-* i18n: need some tests since runtime i18n is now available in Angular 6 (behind Ivy renderer flag)
+* i18n: I need to do some tests since Angular 6 allows runtime i18n (behind the Ivy renderer flag) and it was the main reason I did not use Angular's native translation system for past projects.
 
 ## For new projects
 
