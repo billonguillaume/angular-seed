@@ -17,9 +17,11 @@
       "dom"
     ],
     "paths": {
-      "@models/*": ["app/shared/models/*"],
-      "@shared/*": ["app/shared/*"],
-      "@core/*": ["app/core/*"]
+      "@models/*": ["src/app/shared/models/*"],
+      "@shared/*": ["src/app/shared/*"],
+      "@core/*": ["src/app/core/*"],
+      "@services/*": ["src/app/shared/services/*"],
+      "@environments/*": ["src/environments/*"]
     }
   }
 }
