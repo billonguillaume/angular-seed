@@ -1,0 +1,8 @@
+@import "src/sass/variables";
+
+footer {
+    background-color: color("white");
+    border-top: 1px solid color("gray");
+    color: color("gray-dark");
+    padding: 15px;
+}

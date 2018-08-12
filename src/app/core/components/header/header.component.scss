@@ -1,0 +1,20 @@
+@import "src/sass/variables";
+
+// Remove the carret in the dropdown
+.dropdown-toggle::after {
+    display: none;
+}
+
+.profile {
+    cursor: pointer;
+    color: color('white');
+    margin-right: 5px;
+}
+
+#profile-popup {
+    margin-top: 23px;
+}
+
+.navbar-brand {
+    color: color("white");
+}

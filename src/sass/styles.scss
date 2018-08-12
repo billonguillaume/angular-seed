@@ -7,10 +7,9 @@
   For some basics about SCSS check https://sass-lang.com/guide
 
   To import variables or mixins in components use following syntax :
-  @import '~src/sass/variables;
-  @import '~src/sass/mixins;
+  @import 'src/sass/variables;
+  @import 'src/sass/mixins;
 */
-
 
 /*
   Bootstrap theming : https://getbootstrap.com/docs/4.0/getting-started/theming/
@@ -20,6 +19,7 @@
 // Your variable overrides
 $body-bg: rgba(229, 230, 221, 0.993);
 $body-color: rgba(122, 114, 235, 0.699);
+$primary: color("blue");
 
 // Bootstrap and its default variables: Will import everything
 @import "node_modules/bootstrap/scss/bootstrap";

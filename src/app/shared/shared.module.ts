@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
-import { BrowserModule } from '@angular/platform-browser';
-
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 import { APP_CONFIG, AppConfig } from '@shared/app.config';
+import { RouterModule } from '../../../node_modules/@angular/router';
+import { FontAwesomeIconsModule } from '@shared/modules/font-awesome-icons.module';
 
 /**
  * The SharedModule contains "Angular objects" (e.g.: Services, Components) or code used in multiple modules but
@@ -24,20 +24,20 @@ import { APP_CONFIG, AppConfig } from '@shared/app.config';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule,
     HttpClientModule,
-    BrowserModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    FontAwesomeIconsModule,
+    RouterModule
   ],
   declarations: [],
   exports: [
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule,
     HttpClientModule,
-    BrowserModule,
-    NgbModule
+    NgbModule,
+    FontAwesomeIconsModule,
+    RouterModule
   ],
   providers: [
     { provide : APP_CONFIG, useValue: AppConfig }
