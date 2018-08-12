@@ -20,6 +20,7 @@ Check .gitkeep files content for more details about what the folder is supposed 
 ## Included libraries
 
 * [ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap)
+* [angular-fontawesome](https://github.com/FortAwesome/angular-fontawesome)
 
 Here's a non-exhaustive list of NPM packages I'd like to add in the seed:
 
