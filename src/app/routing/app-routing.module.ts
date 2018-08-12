@@ -6,6 +6,10 @@ export const routes: Route[] = [
     {
         path: '',
         component: HomeComponent
+    },
+    {
+        path: 'lazyloading',
+        loadChildren: 'src/app/sample-feature/sample-feature.module#SampleFeatureModule'
     }
 ];
 
