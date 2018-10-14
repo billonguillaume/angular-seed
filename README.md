@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7. Be advised that Angular-CLI 6 only supports Angular versions >= 5.
+This project is using [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5. Be advised that Angular-CLI 6 only supports Angular versions >= 5.
 
 Command used : `ng new angular-seed --style=scss --skip-tests`.
 
